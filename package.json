@@ -1,0 +1,20 @@
+{
+  "name": "css-world-study",
+  "version": "1.0.0",
+  "description": "CSS 世界 学习",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlonchiu/css-world-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marlonchiu/css-world-study/issues"
+  },
+  "homepage": "https://github.com/marlonchiu/css-world-study#readme"
+}

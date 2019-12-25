@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>单行文本居中多行左边显示</title>
+  <style>
+    .content {
+      width: 400px;
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 3px 3px 15px rgba(0, 0, 0, .1);
+      padding: 15px;
+      font-size: 14px;
+      margin: 20px;
+    }
+  </style>
+  <!-- 方案一  最优解-->
+  <!-- <link rel="stylesheet" href="./demo1.css"> -->
+  <!-- 方案二-->
+  <!-- <link rel="stylesheet" href="./demo2.css"> -->
+  <!-- 方案三-->
+  <!-- <link rel="stylesheet" href="./demo3.css"> -->
+  <!-- 方案四-->
+  <!-- <link rel="stylesheet" href="./demo4.css"> -->
+  <!-- 方案五-->
+  <!-- <link rel="stylesheet" href="./demo5.css"> -->
+  <!-- 方案六-->
+  <!-- <link rel="stylesheet" href="./demo6.css"> -->
+  <!-- 方案七-->
+  <link rel="stylesheet" href="./demo7.css">
+</head>
+
+<body>
+  <!-- 探索CSS单行文字居中，多行文字居左的实现方式 -->
+  <!-- https://juejin.im/post/5e01bf03e51d45581b11f376 -->
+  <div class="content">
+    <span class="text">多行左边显示单行文本居中多行左边显示单行文本居中多行左边显示单行文本居中多行左边显示</span>
+  </div>
+</body>
+
+</html>
+
+<!--
+  解决方案：
+    1. 父级text-align:center，子级inline-block+text-align:left
+    2. width:fit-content+margin:auto
+    3. position:relative+transform
+    4. display:table+margin:auto
+    5. flex 和 grid实现
+    6. float 实现
+    7. 伪元素 ::first-line + text-align-last
+ -->

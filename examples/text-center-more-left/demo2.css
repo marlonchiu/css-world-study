@@ -1,0 +1,6 @@
+.text {
+  width: fit-content;
+  width: -moz-fit-content;
+  /* 火狐需要-moz-前缀*/
+  margin: 0 auto;
+}

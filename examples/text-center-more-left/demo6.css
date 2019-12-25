@@ -1,0 +1,13 @@
+.content {
+  position: relative;
+  float: left;
+  left: 50%;
+  /**父级设置50%**/
+}
+
+.text {
+  position: relative;
+  float: left;
+  left: -50%;
+  /**子级设置-50%**/
+}

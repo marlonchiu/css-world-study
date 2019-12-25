@@ -1,0 +1,5 @@
+.text::first-line {
+  /*匹配首行*/
+  text-align-last: center;
+  /*最后一行居中*/
+}
